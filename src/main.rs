@@ -4,6 +4,7 @@ use std::{collections::HashMap, io};
 fn main() {
     let mut choice = String::new();
     io::stdin().read_line(&mut choice).unwrap();
+
     let choice: usize = choice
         .trim()
         .parse::<usize>()
